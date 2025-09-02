@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+
+# Logs and outputs
+*.log
+*.out
+*.err
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Images generated during training
+images/*.png
+images/*.jpg
+images/*.jpeg
+
+# Cache
+*.cache
